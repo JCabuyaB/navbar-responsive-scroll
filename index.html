@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Scroll menu</title>
+        <link rel="shortcut icon" href="./icon.png" type="image/x-icon" />
+        <link rel="stylesheet" href="./styles.css" />
+        <script defer type="text/javascript" src="./main.js"></script>
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+    </head>
+    <body>
+        <header id="hero" class="hero">
+            <div class="navbar navbar-transparent">
+                <div class="icon">
+                    <img src="./icon.png" alt="logo" class="icon__img" />
+                </div>
+
+                <nav class="navigation">
+                    <a href="#hero" class="nav-anchor navigation__anchor">Inicio</a>
+                    <a href="#productos" class="nav-anchor navigation__anchor">Productos</a>
+                    <a href="#servicios" class="nav-anchor navigation__anchor">Servicios</a>
+                </nav>
+            </div>
+
+            <div class="nav-mobile-container">
+                <div class="mobile-navbar">
+                    <div class="icon">
+                        <img src="./icon.png" alt="logo" class="icon__img" />
+                    </div>
+
+                    <i class="bi bi-list mobile-navbar__btn"></i>
+                </div>
+
+                <div class="navigation-container">
+                    <nav class="mobile-navigation">
+                        <a href="#hero" class="nav-anchor mobile-navigation__anchor">Inicio</a>
+                        <a href="#productos" class="nav-anchor mobile-navigation__anchor">Productos</a>
+                        <a href="#servicios" class="nav-anchor mobile-navigation__anchor">Servicios</a>
+                    </nav>
+                </div>
+            </div>
+
+            <div class="hero-bg">
+                <h1 class="hero-bg__title">Scroll Poject</h1>
+                <h3 class="hero-bg__subtitle">
+                    Proyecto de scroll y responsive navbar
+                </h3>
+                <button class="hero-bg__btn">Leer más</button>
+            </div>
+        </header>
+
+        <section class="section" id="productos">
+            <h2 class="section__title">Nuestros productos</h2>
+        </section>
+
+        <section class="section" id="servicios">
+            <h2 class="section__title">Nuestros servicios</h2>
+        </section>
+
+        <button class="top-btn">
+            <a href="#hero" class="bi bi-arrow-up-short"></a>
+        </button>
+    </body>
+</html>
